@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Adicionar Contato</title>
+	<style>
+		container{
+			margin: auto;
+			padding: 20px;
+			width: 400px;
+			height: 350px;
+			background-color: #FAFAD2;
+			display: block;
+			font-family: arial;
+			font-size: 16px;
+			box-shadow: 2px 2px 2px rgba(100, 100, 100, .3);
+			border-radius: 10px;
+		}
+		input{
+			width: 90%;
+			height: 25px;
+			border-radius: 10px;
+		}
+
+		body{
+			background-color: antiquewhite;
+		}
+
+	</style>
+</head>
+<body>
+	<container>
+		<form method="post" action="adicionarsubmit.php">
+			Nome: 
+			<input type="text" name="nome"><br><br>
+			Email:
+			<input type="text" name="email"><br><br>
+			Senha:
+			<input type="password" name="senha">
+
+			<input type="submit" name="Cadastrar Contato">
+		</form>
+	</container>
+</body>
+</html>
